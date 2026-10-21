@@ -11,3 +11,6 @@ then
 else
     echo "PHP OPcache disabled"
 fi
+
+# CVE-2026-109618 / -109619
+echo "session.upload_progress.enabled = Off" > $PHP_INI_DIR'/conf.d/cve_mitigation.ini'

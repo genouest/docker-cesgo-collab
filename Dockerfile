@@ -34,7 +34,6 @@ RUN chmod +x /usr/local/bin/tini
 
 ENTRYPOINT ["/usr/local/bin/tini", "--"]
 
-
 ENV ENABLE_OP_CACHE=1
 
 ADD entrypoint.sh /
