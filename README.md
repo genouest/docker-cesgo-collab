@@ -1,5 +1,7 @@
 # Docker Image for cesgo collab
 
+https://quay.io/repository/genouest/cesgo-collab?tab=tags&tag=latest
+
 ## Configuring the Container
 
 The following environment variables are also available:
