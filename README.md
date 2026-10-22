@@ -4,7 +4,7 @@
 
 The following environment variables are also available:
 
-```
+```docker
 UPLOAD_LIMIT: 20M # Maximum size of uploaded files
 MEMORY_LIMIT: 128M # Maximum memory used by PHP
 
